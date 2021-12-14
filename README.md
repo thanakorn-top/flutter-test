@@ -1,6 +1,6 @@
 # engbooster
 
-A new Flutter project.
+Test mobile app flutter project
 
 ## Getting Started
 
