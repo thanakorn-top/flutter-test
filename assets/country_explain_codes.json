@@ -1,0 +1,25 @@
+{
+    "GB": {
+        "name": "English",
+        "native": "English",
+        "phone": "44",
+        "continent": "EU",
+        "capital": "London",
+        "currency": "GBP",
+        "languages": [
+            "en"
+        ]
+    },
+
+    "TH": {
+        "name": "Thai",
+        "native": "ไทย",
+        "phone": "66",
+        "continent": "AS",
+        "capital": "Bangkok",
+        "currency": "THB",
+        "languages": [
+            "th"
+        ]
+    }
+}

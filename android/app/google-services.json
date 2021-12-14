@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "482161654021",
+    "project_id": "education-app-d8a94",
+    "storage_bucket": "education-app-d8a94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482161654021:android:9e1a2351fc95b663e1df6c",
+        "android_client_info": {
+          "package_name": "com.example.engbooster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482161654021-4p4cj3e7d1a7ako1qgj43e6e7qcq1k65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.engbooster",
+            "certificate_hash": "8b4315b22588cfc8ae77d4540f66d62668f02be1"
+          }
+        },
+        {
+          "client_id": "482161654021-7qfbbe84ptup39ekh3nu6po8qkhvi01j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.engbooster",
+            "certificate_hash": "9beb41ccff21b43e500e6f3fd8eb861a7ad60c15"
+          }
+        },
+        {
+          "client_id": "482161654021-ms31ho28kc0gg7ptbe2loqiegi7hap3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcCim2IhsZtZWHSsZAnIg2MSl9DiKLOvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482161654021-ms31ho28kc0gg7ptbe2loqiegi7hap3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

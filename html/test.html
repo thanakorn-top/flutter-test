@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Example 2: Simple Integration with CSS</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <link rel="stylesheet" href="styles/examples.css">
+  <link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+
+  <div class="form">
+
+    <h1>Example 2: Simple Integration with CSS</h1>
+    <p>Create a checkout button and custom some style sheet by CSS</p>
+
+      <form name="checkoutForm" method="POST" action="http://192.168.2.220/checkout.php">
+	  <input type="hidden" name="amount" value="99500">
+      <script type="text/javascript" src="https://cdn.omise.co/omise.js"
+        data-key="pkey_test_5oc5o06hka4mu1fb5b4"
+        data-image="https://cdn.omise.co/assets/dashboard/images/omise-logo.png"
+        data-amount="99500"
+        data-currency="thb"
+        data-button-label="Pay now"
+        data-frame-label="Example 2"
+        data-submit-label="Checkout">
+      </script>
+    </form>
+<h2><?php echo $_GET['msg'] ?></h2>
+<h2><?php echo $_SESSION['msg1'] ?></h2>
+
+<script type="text/javascript">
+    var javaScriptVar = "<?php Print $_GET['msg'] ?>";
+	var javaScriptVar1 = "<?php Print $_SESSION['msg1']; ?>";
+	console.log("javaScriptVar"+javaScriptVar);
+	console.log("javaScriptVar"+javaScriptVar1);
+	console.log(window.location.href);
+	
+	if(window.location.href.includes('successful')){
+	console.log("true");
+	}else{
+	console.log("false");
+	}
+	
+	
+	
+	function fromFlutter(location) {
+    document.getElementById("locationId").innerHTML = location;
+   sendBack();
+}
+</script>
+  <h1>"The value for number is: " <span id="locationId"></span></h1>
+  </div>
+
+</body>
+</html>

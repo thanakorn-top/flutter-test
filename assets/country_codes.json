@@ -1,0 +1,14 @@
+{
+    "GB": {
+        "name": "English",
+        "native": "English",
+        "phone": "44",
+        "continent": "EU",
+        "capital": "London",
+        "currency": "GBP",
+        "languages": [
+            "en"
+        ]
+    }
+    
+}
